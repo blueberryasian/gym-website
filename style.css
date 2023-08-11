@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.btn {
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: white;
+    background-color: gold;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: transparent;
+    transition: 0.4s;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    padding-right: 10px;
+    margin-right: 20rem;
+}
+
+.header .logo i{
+    padding: 0.5rem;
+}
+
+.header .navbar a{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: white;
+}
+
+.header .navbar a:hover{
+    color: gold;
+}
+
+.header .btn{
+    font-size: 12px;
+    padding: 8px;
+    border: 1px solid gold;
+    color: gold;
+}
+
+.width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+
+section{
+    padding: 50px 0 50px 0;
+}
+
+.home{
+    display: flex;
+}
+
+.home .width{
+    width: 100%;
+    display: flex;
+}
+
+.home .home-info{
+    width: 50%;
+    padding: 2rem;
+}
+.home h3{
+    color:white;
+    margin-top: 6rem;
+    font-size: 5rem;
+    font-family: sans-serif;
+}
+.home p{
+    color:antiquewhite ;
+    margin-top: 1rem;
+    font-size: 12px;
+}
+
+.home .home-image{
+    width: 100%;
+}
+.home .home-image img{
+    width: 149%;
+    height: 100%;
+}
+
+footer{
+    background-color: gold;
+}
+.footer-container{
+    width: 100%;
+    padding:70px 30px 20px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 2em;
+    color: gold;
+    opacity: 0.9;
+}
+
+.footer-nav{
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.footer-bottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: gold;
+}
+
+.designer{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}

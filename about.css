@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    transition: 0.2s linear;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.btn {
+    margin-top: 2rem;
+    width: 150px;
+    padding: 12px;
+    color: white;
+    background-color: gold;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: transparent;
+    transition: 0.4s;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 1.5rem 8%;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+}
+
+.header .logo{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    padding-right: 10px;
+    margin-right: 20rem;
+}
+
+.header .logo i{
+    padding: 0.5rem;
+}
+
+.header .navbar a{
+    font-size: 1.1rem;
+    margin: 0 1rem;
+    color: white;
+}
+
+.header .navbar a:hover{
+    color: gold;
+}
+
+.header .btn{
+    font-size: 12px;
+    padding: 8px;
+    border: 1px solid gold;
+    color: gold;
+}
+
+.heading{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 20px auto;
+}
+
+.heading h1{
+    font-size: 50px;
+    color: gold;
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.heading h1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    display:block;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+}
+
+.heading p{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 35px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.about-image{
+    flex: 1;
+    margin-right: 40px;
+    overflow:hidden ;
+}
+
+.about-image img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    transition: 0.5s ease;
+}
+
+.about-content{
+    flex: 1;
+}
+
+.about-content h2{
+    font-size: 23px;
+    margin-bottom: 15px;
+    color: rgb(255, 255, 255);
+}
+.about-content p{
+    font-size: 18px;
+    line-height: 1.5;
+    color: gold;
+}
+
+.about-content .classes{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gold;
+    color: black;
+    font-size: 19px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+.about-content .classes:hover{
+    background-color: white;
+}
+
+footer{
+    background-color: gold;
+}
+.footer-container{
+    width: 100%;
+    padding:70px 30px 20px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+}
+
+.socials a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socials a i{
+    font-size: 2em;
+    color: gold;
+    opacity: 0.9;
+}
+
+.footer-nav{
+    margin: 30px 0;
+}
+
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li a{
+    color: black;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.footer-bottom{
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+    color: gold;
+}
+
+.designer{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
